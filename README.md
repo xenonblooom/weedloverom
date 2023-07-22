@@ -27,7 +27,7 @@
         }
 
         .bg2 {
-            background-image: url('http://www.dommune.com/ele-king/upload/img/733.jpg');
+            background-image: url('[http://www.dommune.com/ele-king/upload/img/733.jpg](https://tse2.mm.bing.net/th?id=OIP.SW5B0Eec_OSoTNtGuPQ4ngHaE5&pid=ImgDet&w=1024&h=677&rs=1)');
             grid-column: 1;
             grid-row: 2;
         }
