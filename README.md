@@ -48,7 +48,7 @@
         var songs = [
             {name: "OM's plan", link: "https://youtu.be/xpVfcZ0ZcFM?si=Bin4e6iDPVvpQjom"},
             {name: "freestyle vol.1", link: "https://youtu.be/XbGs_qK2PQA?si=v36LNreV3EatV5Q1"},
-            {name: "yesterday's spagetti", link: "[https://www.youtube.com/watch?v=xFYQQPAOz7Y&ab_channel=EminemMusic"},
+            {name: "yesterday's spagetti", link: "https://www.youtube.com/watch?v=xFYQQPAOz7Y&ab_channel=EminemMusic"},
             {name: "convo with my niece", link: "https://www.youtube.com/watch?v=SRcnnId15BA&ab_channel=50CentVEVO"},
             {name: "this episode", link: "https://www.youtube.com/watch?v=QZXc39hT8t4&ab_channel=DrDreVEVO"},
             // Add more songs here...
