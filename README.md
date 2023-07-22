@@ -46,8 +46,8 @@
     <script>
         // Define your list of songs and their links
         var songs = [
-            {name: "God's plan", link: "https://youtu.be/xpVfcZ0ZcFM?si=Bin4e6iDPVvpQjom"},
-            {name: "RAP GOD", link: "https://youtu.be/XbGs_qK2PQA?si=v36LNreV3EatV5Q1"},
+            {name: "OM's plan", link: "https://youtu.be/xpVfcZ0ZcFM?si=Bin4e6iDPVvpQjom"},
+            {name: "freestyle vol.1", link: "https://youtu.be/XbGs_qK2PQA?si=v36LNreV3EatV5Q1"},
             // Add more songs here...
         ];
 
