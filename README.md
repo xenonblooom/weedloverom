@@ -1,4 +1,3 @@
-# weedloverom
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,20 +6,49 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: url('https://mcdn.wallpapersafari.com/medium/43/10/JSZGIt.jpg') no-repeat center center fixed; 
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            background-size: cover;
-            color: #fff;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            height: 100vh;
+            margin: 0;
         }
+
+        body div {
+            background-size: cover;
+            background-position: center;
+            filter: brightness(60%);
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .bg1 {
+            background-image: url('https://i.ytimg.com/vi/rS0y_v7mMpE/maxresdefault.jpg');
+            grid-column: 1 / 3;
+            grid-row: 1;
+        }
+
+        .bg2 {
+            background-image: url('https://th.bing.com/th/id/R.d45d4f09067828053c47ae8a987712cf?rik=I5I7%2bu1Necgx7w&riu=http%3a%2f%2ffourgangsinamerica.weebly.com%2fuploads%2f2%2f8%2f9%2f0%2f28906743%2f6691180.png%3f276&ehk=WpY%2fxWNwEIk4u4vGcxEkoB3cOtFjPnu3I0fy8AwEZjg%3d&risl=&pid=ImgRaw&r=0');
+            grid-column: 1;
+            grid-row: 2;
+        }
+
+        .bg3 {
+            background-image: url('https://th.bing.com/th/id/R.cd191c206b20ddec5fe538a2d8ae1603?rik=vf0P4So5%2blHTSw&riu=http%3a%2f%2fwww.dommune.com%2fele-king%2fupload%2fimg%2f733.jpg&ehk=mSvPobkW1HSSPWbO5FIB%2fUEzjOnK3%2bPjaq5My8bo7Ko%3d&risl=&pid=ImgRaw&r=0');
+            grid-column: 2;
+            grid-row: 2;
+        }
+
         .title {
             font-family: 'Permanent Marker', cursive;
             font-size: 3em;
             text-align: center;
             padding-top: 20px;
             color: #ff0;
+            grid-column: 1 / 3;
+            grid-row: 1 / 3;
+            z-index: 1;
         }
+
         .list {
             font-family: 'Permanent Marker', cursive;
             font-size: 1.5em;
@@ -28,10 +56,15 @@
             color: #ddd;
             list-style-type: none;
             padding: 20px 0;
+            grid-column: 1 / 3;
+            grid-row: 1 / 3;
+            z-index: 1;
         }
+
         .list li {
             margin: 10px 0;
         }
+
         .list a {
             color: #0f0;
         }
@@ -39,6 +72,9 @@
 </head>
 <body>
     <div class="title">List of Songs stolen from me </div>
+    <div class="bg1"></div>
+    <div class="bg2"></div>
+    <div class="bg3"></div>
     <ul class="list" id="songs-list">
         <!-- Songs will be dynamically added here with JavaScript -->
     </ul>
