@@ -27,13 +27,13 @@
         }
 
         .bg2 {
-            background-image: url('https://th.bing.com/th/id/R.d45d4f09067828053c47ae8a987712cf?rik=I5I7%2bu1Necgx7w&riu=http%3a%2f%2ffourgangsinamerica.weebly.com%2fuploads%2f2%2f8%2f9%2f0%2f28906743%2f6691180.png%3f276&ehk=WpY%2fxWNwEIk4u4vGcxEkoB3cOtFjPnu3I0fy8AwEZjg%3d&risl=&pid=ImgRaw&r=0');
+            background-image: url('http://www.dommune.com/ele-king/upload/img/733.jpg');
             grid-column: 1;
             grid-row: 2;
         }
 
         .bg3 {
-            background-image: url('https://th.bing.com/th/id/R.cd191c206b20ddec5fe538a2d8ae1603?rik=vf0P4So5%2blHTSw&riu=http%3a%2f%2fwww.dommune.com%2fele-king%2fupload%2fimg%2f733.jpg&ehk=mSvPobkW1HSSPWbO5FIB%2fUEzjOnK3%2bPjaq5My8bo7Ko%3d&risl=&pid=ImgRaw&r=0');
+            background-image: url('https://i.ytimg.com/vi/cCs5VnZ5FZI/maxresdefault.jpg');
             grid-column: 2;
             grid-row: 2;
         }
