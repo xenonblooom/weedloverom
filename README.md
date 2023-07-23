@@ -27,13 +27,13 @@
         }
 
         .bg2 {
-            background-image: url('https://i.ebayimg.com/images/g/knkAAOSw42Nfrr3q/s-l300.jpg');
+            background-image: url('https://i.ytimg.com/vi/cCs5VnZ5FZI/maxresdefault.jpg');
             grid-column: 1;
             grid-row: 2;
         }
 
         .bg3 {
-            background-image: url('https://i.ytimg.com/vi/cCs5VnZ5FZI/maxresdefault.jpg');
+            background-image: url('http://www.dommune.com/ele-king/upload/img/733.jpg');
             grid-column: 2;
             grid-row: 2;
         }
